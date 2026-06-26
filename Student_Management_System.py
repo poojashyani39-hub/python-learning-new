@@ -20,6 +20,8 @@ def addstudent():  #add student
         else:
             break
 
+
+
     while True:
         try:
             marks = float(input("Enter Student Marks: "))
