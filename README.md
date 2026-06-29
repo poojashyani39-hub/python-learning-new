@@ -73,3 +73,70 @@ The programs include validation for:
 - Number guessing input between 1 and 100
 - Menu choice validation
 
+
+
+## Task 3: Employee Salary Calculator
+
+### Description
+
+This program calculates an employee's salary based on the entered basic salary. It computes:
+
+* HRA (20%)
+* DA (10%)
+* PF (12%)
+* Gross Salary
+* Net Salary
+
+The program also handles invalid input and prevents negative salary values.
+
+### How to Run
+
+1. Open the project folder.
+2. Run the Python file:
+
+   python employee_salary_calculator.py
+
+3. Enter the basic salary when prompted.
+4. The program will display the salary details.
+
+
+
+## Task 4: Contact Book
+
+### Description
+
+This is a simple Contact Book application developed using Python. It allows users to manage contacts through a menu-driven program.
+
+### Features
+
+* Add Contact
+* Search Contact
+* Update Contact
+* Delete Contact
+* Display All Contacts
+* Exit Program
+
+### Validations
+
+* **Name**
+
+  * Cannot be empty
+  * Can contain only letters and spaces
+
+* **Mobile Number**
+
+  * Cannot be empty
+  * Can contain only digits
+
+### How to Run
+
+1. Open the project folder.
+2. Run the Python file:
+
+
+   python contact_book.py
+   
+3. Select an option from the menu.
+4. Follow the on-screen instructions to manage contacts.
+
+
