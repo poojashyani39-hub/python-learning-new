@@ -140,3 +140,91 @@ This is a simple Contact Book application developed using Python. It allows user
 4. Follow the on-screen instructions to manage contacts.
 
 
+# Task:5 Library Management System
+
+## Description
+
+This is a simple Library Management System developed using Python. It is a menu-driven application that allows users to manage library books.
+
+## Features
+
+- Add Book
+- Search Book
+- Issue Book
+- Return Book
+- Display All Books
+- Exit
+
+## Book Details
+
+Each book contains:
+- Book ID
+- Book Name
+- Author Name
+- Status (Available / Issued)
+
+## Input Validation
+
+### Book ID
+- Cannot be empty
+- Must contain only digits
+
+### Book Name
+- Cannot be empty
+
+### Author Name
+- Cannot be empty
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+
+
+
+# Task: 6 Bank Management System
+
+## Description
+
+This is a simple Bank Management System developed using Python. It is a menu-driven application that allows users to perform basic banking operations.
+
+## Features
+
+- Create Account
+- Deposit Money
+- Withdraw Money
+- Check Balance
+- Display All Accounts
+- Exit
+
+## Account Details
+
+Each account contains:
+- Account Number
+- Account Holder Name
+- Balance
+
+## Input Validation
+
+### Account Number
+- Cannot be empty
+- Must contain only digits
+
+### Account Holder Name
+- Cannot be empty
+- Can contain only letters and spaces
+
+### Balance
+- Cannot be negative
+- Must be a valid numeric value
+
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+
