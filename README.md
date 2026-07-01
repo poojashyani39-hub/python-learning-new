@@ -1,23 +1,5 @@
 # Python Logical Assessment
 
-## Overview
-
-This project contains solutions for two Python console-based applications:
-
-1. Number Guessing Game
-2. Student Management System
-
-Both programs are written in Python and use functions for better readability and code organization.
-
-
-## Project Structure
-
-Python-Logical-Assessment/
-│
-├── number_guessing_game.py
-├── student_management_system.py
-└── README.md
-
 
 # Task 1: Number Guessing Game
 
@@ -227,4 +209,61 @@ Each account contains:
 1. Open the project folder.
 2. Open the terminal.
 3. Run the program:
+
+
+
+# Task:7 Password Validator
+
+## Description
+
+This is a simple Password Validator program developed using Python. It checks whether a password is valid based on predefined password strength rules.
+
+## Password Rules
+
+- Minimum 8 characters
+- At least one uppercase letter
+- At least one lowercase letter
+- At least one digit
+- At least one special character
+
+## Features
+
+- Accepts password from the user
+- Validates password strength
+- Displays whether the password is valid or invalid
+- Shows appropriate validation messages
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+4. Enter a password.
+5. The program will validate the password and display the result.
+
+
+
+# Task:8  Prime Number Generator
+
+## Description
+
+This is a simple Prime Number Generator program developed using Python. It takes a start number and an end number from the user and displays all prime numbers within the given range.
+
+## Features
+
+- Accepts start and end numbers from the user
+- Displays all prime numbers within the specified range
+- Validates user input
+- Handles invalid range input
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+4. Enter the start number.
+5. Enter the end number.
+6. The program will display all prime numbers in the given range.
 
