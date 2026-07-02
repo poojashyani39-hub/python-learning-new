@@ -122,7 +122,54 @@ This is a simple Contact Book application developed using Python. It allows user
 4. Follow the on-screen instructions to manage contacts.
 
 
-# Task:5 Library Management System
+# Task:5 Bank Management System
+
+## Description
+
+This is a simple Bank Management System developed using Python. It is a menu-driven application that allows users to perform basic banking operations.
+
+## Features
+
+- Create Account
+- Deposit Money
+- Withdraw Money
+- Check Balance
+- Display All Accounts
+- Exit
+
+## Account Details
+
+Each account contains:
+- Account Number
+- Account Holder Name
+- Balance
+
+## Input Validation
+
+### Account Number
+- Cannot be empty
+- Must contain only digits
+
+### Account Holder Name
+- Cannot be empty
+- Can contain only letters and spaces
+
+### Balance
+- Cannot be negative
+- Must be a valid numeric value
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+4. Choose an option from the menu.
+5. Follow the instructions displayed on the screen.
+
+
+
+# Task:6 Library Management System
 
 ## Description
 
@@ -164,51 +211,6 @@ Each book contains:
 2. Open the terminal.
 3. Run the program:
 
-
-
-# Task: 6 Bank Management System
-
-## Description
-
-This is a simple Bank Management System developed using Python. It is a menu-driven application that allows users to perform basic banking operations.
-
-## Features
-
-- Create Account
-- Deposit Money
-- Withdraw Money
-- Check Balance
-- Display All Accounts
-- Exit
-
-## Account Details
-
-Each account contains:
-- Account Number
-- Account Holder Name
-- Balance
-
-## Input Validation
-
-### Account Number
-- Cannot be empty
-- Must contain only digits
-
-### Account Holder Name
-- Cannot be empty
-- Can contain only letters and spaces
-
-### Balance
-- Cannot be negative
-- Must be a valid numeric value
-
-
-
-## How to Run
-
-1. Open the project folder.
-2. Open the terminal.
-3. Run the program:
 
 
 
@@ -267,3 +269,104 @@ This is a simple Prime Number Generator program developed using Python. It takes
 5. Enter the end number.
 6. The program will display all prime numbers in the given range.
 
+
+
+# Task:9  File Handling
+
+## Description
+
+This is a simple File Handling program developed using Python. It allows users to store student information in a text file, read the stored records, and add new records without deleting existing data.
+
+## Features
+
+- Add Student Record
+- Display All Student Records
+- Exit
+
+## Student Information
+
+Each student record contains:
+
+- Student ID
+- Student Name
+- Course
+
+## File Used
+
+- students.txt
+
+## Input Validation
+
+### Student ID
+- Cannot be empty
+- Must contain only digits
+
+### Student Name
+- Cannot be empty
+- Can contain only letters and spaces
+
+### Course
+- Cannot be empty
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+4. Choose an option from the menu.
+5. Follow the instructions displayed on the screen.
+
+
+# Task:10  Bank Account System (OOP)
+
+## Description
+
+This is a simple Bank Account System developed using Python and Object-Oriented Programming (OOP). The program allows users to deposit money, withdraw money, check account balance, and prevents withdrawal when there is insufficient balance.
+
+## Features
+
+- Deposit Amount
+- Withdraw Amount
+- Check Balance
+- Prevent Withdrawal if Insufficient Balance
+- Exit
+
+## Account Information
+
+Each account contains:
+
+- Account Number
+- Account Holder Name
+- Opening Balance
+
+## Input Validation
+
+### Account Number
+- Cannot be empty
+- Must contain only digits
+
+### Account Holder Name
+- Cannot be empty
+- Can contain only letters and spaces
+
+### Opening Balance
+- Cannot be negative
+- Must be a valid numeric value
+
+### Deposit Amount
+- Must be greater than zero
+
+### Withdraw Amount
+- Must be greater than zero
+- Cannot exceed the available balance
+
+
+## How to Run
+
+1. Open the project folder.
+2. Open the terminal.
+3. Run the program:
+4. Enter account details.
+5. Choose an option from the menu.
+6. Follow the instructions displayed on the screen
